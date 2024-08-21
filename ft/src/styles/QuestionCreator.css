@@ -1,0 +1,41 @@
+.question-creator h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+  }
+  
+  .question-creator input[type="text"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ced4da;
+  }
+  
+  .option-input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .option-input input[type="radio"] {
+    margin-left: 10px;
+  }
+  
+  .option-input label {
+    margin-left: 5px;
+  }
+  
+  .question-creator button {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .question-creator button:hover {
+    background-color: #218838;
+  }
+  
